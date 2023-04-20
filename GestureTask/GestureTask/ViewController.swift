@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         //This is my new comment
         print("Hello I'm Dharmesh and Changes here this code...")
         
+        
+        //MARK:- Here adding SwipeGestureRecognizer
+        
         let swipRight = UISwipeGestureRecognizer(target: self, action: #selector(swipToRight(swip:)))
         swipRight.direction = UISwipeGestureRecognizer.Direction.left
         
@@ -31,6 +34,8 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "goRight", sender: self)
         
     }
+    
+    // touches Began mathod
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         if let touch = touches.first{
@@ -41,6 +46,8 @@ class ViewController: UIViewController {
         }
     }
 
+    //MARK:- This is swipe view action
+    
     @IBAction func sipeView(_ sender: UISwipeGestureRecognizer) {
         switch sender.direction {
         case .up:
