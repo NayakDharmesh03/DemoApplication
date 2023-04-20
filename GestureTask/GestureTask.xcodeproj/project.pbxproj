@@ -17,6 +17,8 @@
 		522A0DC129B0B97000AAAE4E /* ZoomImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A0DC029B0B97000AAAE4E /* ZoomImageViewController.swift */; };
 		522A0DC429B0C17400AAAE4E /* RotationGestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A0DC329B0C17400AAAE4E /* RotationGestureVC.swift */; };
 		522A0DC729B0C6CA00AAAE4E /* LongPressGestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A0DC629B0C6CA00AAAE4E /* LongPressGestureVC.swift */; };
+		5242376F29F1700C00FE4B6B /* tableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5242376E29F1700C00FE4B6B /* tableViewVC.swift */; };
+		5242377229F170B400FE4B6B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5242377129F170B400FE4B6B /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		522A0DC029B0B97000AAAE4E /* ZoomImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomImageViewController.swift; sourceTree = "<group>"; };
 		522A0DC329B0C17400AAAE4E /* RotationGestureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureVC.swift; sourceTree = "<group>"; };
 		522A0DC629B0C6CA00AAAE4E /* LongPressGestureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureVC.swift; sourceTree = "<group>"; };
+		5242376E29F1700C00FE4B6B /* tableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewVC.swift; sourceTree = "<group>"; };
+		5242377129F170B400FE4B6B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				522A0DA929B09DB000AAAE4E /* SceneDelegate.swift */,
 				522A0DAB29B09DB000AAAE4E /* ViewController.swift */,
 				522A0DAD29B09DB000AAAE4E /* Main.storyboard */,
+				5242376E29F1700C00FE4B6B /* tableViewVC.swift */,
+				5242377129F170B400FE4B6B /* TableViewCell.swift */,
 				522A0DC629B0C6CA00AAAE4E /* LongPressGestureVC.swift */,
 				522A0DC329B0C17400AAAE4E /* RotationGestureVC.swift */,
 				522A0DC029B0B97000AAAE4E /* ZoomImageViewController.swift */,
@@ -149,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5242376F29F1700C00FE4B6B /* tableViewVC.swift in Sources */,
 				522A0DC729B0C6CA00AAAE4E /* LongPressGestureVC.swift in Sources */,
 				522A0DBD29B0A30D00AAAE4E /* SecondViewController.swift in Sources */,
+				5242377229F170B400FE4B6B /* TableViewCell.swift in Sources */,
 				522A0DC129B0B97000AAAE4E /* ZoomImageViewController.swift in Sources */,
 				522A0DAC29B09DB000AAAE4E /* ViewController.swift in Sources */,
 				522A0DA829B09DB000AAAE4E /* AppDelegate.swift in Sources */,
