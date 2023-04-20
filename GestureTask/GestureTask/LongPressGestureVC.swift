@@ -9,6 +9,8 @@ import UIKit
 
 class LongPressGestureVC: UIViewController {
 
+    @IBOutlet var longPressLabl: UILabel!
+    
     @IBOutlet var longPressGesture: UILongPressGestureRecognizer!
     var val = 0
     @IBOutlet var resultlable: UILabel!
@@ -20,7 +22,9 @@ class LongPressGestureVC: UIViewController {
     
 
     @IBAction func pressedButton(_ sender: UILongPressGestureRecognizer) {
-        val = val + 1
+        
+        //if user long press then changes value are 10 ,20, 30 etc...
+        val = val + 10
         resultlable.text = String(val)
     
         print("Long press")

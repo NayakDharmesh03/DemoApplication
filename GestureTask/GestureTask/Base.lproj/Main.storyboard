@@ -241,19 +241,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Long Pres" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3x-6Y-Hak">
+                                <rect key="frame" x="141.5" y="44" width="131" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rcj-Zc-R4m"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
+                            <constraint firstItem="B3x-6Y-Hak" firstAttribute="centerX" secondItem="ruo-Tn-zFJ" secondAttribute="centerX" id="QhR-1A-lKh"/>
                             <constraint firstItem="obq-IK-wZa" firstAttribute="centerX" secondItem="ruo-Tn-zFJ" secondAttribute="centerX" id="eah-9E-KmW"/>
                             <constraint firstItem="rcj-Zc-R4m" firstAttribute="trailing" secondItem="PgC-mE-mE2" secondAttribute="trailing" constant="20" id="jSV-No-1YW"/>
                             <constraint firstItem="obq-IK-wZa" firstAttribute="centerY" secondItem="ruo-Tn-zFJ" secondAttribute="centerY" id="uOM-Sp-H9v"/>
+                            <constraint firstItem="B3x-6Y-Hak" firstAttribute="top" secondItem="rcj-Zc-R4m" secondAttribute="top" id="wRh-Kn-Kwo"/>
                             <constraint firstItem="PgC-mE-mE2" firstAttribute="top" secondItem="obq-IK-wZa" secondAttribute="bottom" constant="28" id="xBb-nc-UQ6"/>
                             <constraint firstItem="PgC-mE-mE2" firstAttribute="leading" secondItem="rcj-Zc-R4m" secondAttribute="leading" constant="20" id="yA8-26-eTU"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="longPressGesture" destination="duX-ZQ-3wB" id="Whn-Oe-b70"/>
+                        <outlet property="longPressLabl" destination="B3x-6Y-Hak" id="FGR-B9-NaL"/>
                         <outlet property="resultlable" destination="PgC-mE-mE2" id="c0z-zz-f61"/>
                     </connections>
                 </viewController>
